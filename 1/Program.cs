@@ -6,13 +6,14 @@ a = -9 b = -3 -> max = -3
 
 
 Console.Write("Введите число ");
-string number = Console.ReadLine();
-int a = Convert.ToInt32 (number);
+string stringValue = Console.ReadLine();
+int value = Convert.ToInt32(stringValue);
 Console.Write("Введите число ");
-string number1 = Console.ReadLine();
-int b = Convert.ToInt32 (number);
-if (a>b)
+string stringValue1 = Console.ReadLine();
+int value1 = Convert.ToInt32(stringValue1);
+if (value > value1)
 {
-System.Console.WriteLine($"число {a} большее");  
+    Console.WriteLine($"число {value} max");
 }
-else System.Console.WriteLine($"число {b} большее");  
+Console.WriteLine($"число {value1} max");
+
