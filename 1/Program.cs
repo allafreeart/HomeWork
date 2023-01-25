@@ -13,7 +13,7 @@ string stringValue1 = Console.ReadLine();
 int value1 = Convert.ToInt32(stringValue1);
 if (value > value1)
 {
-    Console.WriteLine($"число {value} max");
+    Console.WriteLine($" {value} max");
 }
-Console.WriteLine($"число {value1} max");
+Console.WriteLine($"{value1} max");
 
