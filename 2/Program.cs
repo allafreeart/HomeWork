@@ -15,13 +15,13 @@ Console.Write("Введите число ");
 string stringValue2 = Console.ReadLine();
 int value2 = Convert.ToInt32(stringValue2);
 
-if (value > value1 && value > value2)
+int max = value;
+if (max < value1)
 {
-    Console.WriteLine($"число {value} max");
+max = value1;
 }
-else if (value1 > value && value1 > value2)
+if (max < value2)
 {
-    Console.WriteLine($"число {value1} max");
+max = value2;
 }
-else Console.WriteLine($"число {value2} max");
-
+Console.WriteLine($"число {max} max");
